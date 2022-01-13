@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace LearnCsharp
 {
-    class App
+    class Item
     {
-        public App()
-        {
-            // Console.WriteLine("LearnCsharp");
+        public string name;
 
-            Item item = new Item("장검");
+        public Item(string name)
+        {
+            this.name = name;
         }
     }
 }
