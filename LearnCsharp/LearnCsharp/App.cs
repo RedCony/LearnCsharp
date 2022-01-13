@@ -10,7 +10,7 @@ namespace LearnCsharp
     {
         public App()
         {
-
+            Console.WriteLine("LearnCsharp");
         }
     }
 }
